@@ -1,0 +1,43 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); 
+ *{
+    padding: 0;
+    margin: 0;
+}
+.hr{
+    border: none;
+    background-color: rgb(220, 220, 245);
+    height: 2px;
+    margin-top: 15px;
+    width: 290px;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(7, 8, 46, 25), rgba(85, 77, 189, 0), rgba(7, 8, 46, 25));
+    position: absolute;
+}
+.main{
+    max-width: 1400px;
+    margin: 0 auto ;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-text{
+
+    color: white;
+    color: lavender;
+    font-family: 'Playfair Display';
+    font-size:1.9rem;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    line-height: 65px;
+}
+span{
+    font-family: 'Rubik Doodle Shadow';
+    font-size: 40px;
+    color: red;
+    position: relative;
+    opacity: .8;
+}

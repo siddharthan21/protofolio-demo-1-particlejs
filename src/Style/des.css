@@ -1,0 +1,8 @@
+#tsparticles {
+    position: fixed;
+    z-index: -10;
+    width: 100%;
+}
+h1{
+    color: rgba(8, 8, 46, 0.925);
+}

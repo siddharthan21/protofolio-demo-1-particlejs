@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); 
+*{
+    padding: 0;
+    margin: 0;
+}
+.skill-head{
+    /* background-color:#185073; */
+    /* background: linear-gradient(#020024,#090979,#090979); */
+     /* background: rgb(2,0,36); */
+/*background: linear-gradient(90deg, rgba(2,0,36,1) 25%, rgba(22,57,136,1) 43%, rgba(9,9,121,0.9416141456582633) 66%); */
+ /* background: rgb(22,57,136); */
+/*background: linear-gradient(90deg, rgba(22,57,136,1) 13%, rgba(2,0,36,1) 25%, rgba(6,6,47,0.9416141456582633) 66%); */
+/* background: linear-gradient(90deg, rgba(22,57,136,1) 0%, rgba(2,0,36,1) 25%, rgba(6,6,47,0.9416141456582633) 66%); */
+    /* background-color: Silver; */
+}
+
+.skill-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background-color: rebeccapurple; */
+    margin-top: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    margin: 0 auto;
+    max-width: 1300px;
+    gap:65px;
+}
+.skill-left{
+    border: 5px dotted lavenderblush;
+    padding: 10px;
+    display: grid;
+    /* height: 530px; */
+    grid-template-columns: 1fr 1fr 1fr ;
+    /* padding: 50px; */
+    border-radius: 30px;
+    grid-template-rows: 1fr 1fr 1fr ;
+    align-items: center;
+    /* row-gap: 25px; */
+    column-gap: 50px;
+    justify-content: center;
+}
+.img-dis img{
+    width:80px;
+    height: 80px;
+    padding: 10px;
+    float: left;
+    /* width:  120px; */
+    /* height: 120px; */
+    background-size: contain;
+
+}
+h3{
+    /* color:rgb(24, 90, 92);
+     */
+     color: lightsalmon;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Rubik Scribble';
+    
+}
+.img-dis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+.container {
+    margin:20px;
+  height: 15px;
+  background-color: #ddd;
+  border-radius: 30px;
+
+}
+.skill-right-iner{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border: 5px dotted lavenderblush;
+    padding: 10px;
+    border-radius: 30px;
+    gap: 29px;
+}
+.right-kill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-kill img{    
+    width:  80px;
+    height: 80px;
+    background-size: contain;
+}
+.con-ar{
+    width: 150px;
+}
+.con-py{
+    width: 250px;
+}
+.con-java{
+    width: 280px;
+}
+.con-c{
+    width: 350px;
+}
+.right h3 {
+    margin-bottom: rem;
+}
+.skill-right-iner{
+    
+}
